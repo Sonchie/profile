@@ -1,0 +1,116 @@
+body {
+  background-color: #F8F8F8;
+  font-family: 'Sunflower', sans-serif;
+  color: #6B6B6B;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4 {
+  font-family:'Montserrat', sans-serif;
+  color: #DD5555;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+
+}
+
+h4 {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #6B6B6B;
+}
+
+a:hover {
+  color: #FF7300;
+}
+
+#avatar {
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 3px #7D7D7D;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px !important;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px !important;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px !important;
+  }
+}
+
+.card{
+  border: 1px dashed #7D7D7D;
+  text-align: center;
+  background-color: white;
+}
+
+.like-description{
+  text-align: center;
+}
+
+.social li{
+  display: inline;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.fab {
+  color:#FF7300;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.pic-500{
+  width: 500px;
+  height: 330px;
+  margin: 0px 40px 30px 40px;
+}
+
+.button {
+  color: #6B6B6B;
+  background-color: #F8F8F8;
+  opacity: 0.4;
+  border: 1px dashed #7D7D7D;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: #6B6B6B;
+  opacity: 0.8;
+  color: #FF7300;
+}
+
+
+
